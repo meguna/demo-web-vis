@@ -26,3 +26,15 @@ iframe {
   width: 100%;
   height: 100%;
 }
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+}
+
+.panel {
+  width: 50%;
+}
+
+.section {
+  margin-bottom: 50px;
+}
