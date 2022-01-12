@@ -1,5 +1,6 @@
 import React from 'react';
 import "App.css";
+import Map from './MapExample';
 
 function App() {
   return (
@@ -7,8 +8,9 @@ function App() {
       <header className="app-header">
         My Interactive Data Visualization
       </header>
+      <Map />
       <div className="map-wrapper">
-        <iframe src={`${process.env.PUBLIC_URL}/kepler.gl.html`} title="map" sandbox="allow-scripts"/>
+        <iframe src={`${process.env.PUBLIC_URL}/kepler.gl.html`} title="map" sandbox="allow-scripts allow-same-origin"/>
       </div>
       <p className="app-description">
         This is my interactive data visualization. It uses a really interesting data set called DATASET.
