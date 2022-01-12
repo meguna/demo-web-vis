@@ -99,3 +99,30 @@ The various ways you can initialize your `data` parameter is explained here: htt
 <Scatter options={options} data={data} />
 ```
 Where you would replace `Scatter` with whatever chart you chose in step 1. 
+
+### Adding Sections and Styling
+
+The structure of your website is dictated by how you order and structure elements in the return function of `App.js`. The appearance of your website is dictated by what you put in `.css` files. 
+
+You can come up with your own layouts, but some simple ones have been set up for you:
+
+* To group together headings, charts, paragraphs in a "section" (that puts a big gap between itself and the next section), wrap all of the elements in a `<div>` tag and give that div the class `section`, like so:
+```
+<div className="section>
+<h1>some title</h1>
+<iframe ... />
+<p>some paragraph</p>
+</div>
+```
+* To stack two things horizontally (so that some element goes on the left side, with 50% of the width, and some other element goes on the right side, with 50% of the width), wrap everything in a `div` with the class `side-by-side` and wrap the two inner elements in a `div` with the class `panel`. You can see an example of this in the last section of `App.js`:
+```
+<div className="side-by-side">
+  <div className="panel">
+    <h2>Check this out</h2>
+    <p>some paragraph</p>
+  </div>
+  <div className="panel">
+    <Scatterplot />
+  </div>
+</div>
+```
