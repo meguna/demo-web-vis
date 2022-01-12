@@ -1,6 +1,8 @@
 import React from 'react';
 import "App.css";
 import Map from './MapExample';
+import Linechart from './LinechartExample';
+import Scatterplot from './ScatterplotExample';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         Using this visualization, you can interact by CLICKING, DRAGGING, and more.
         Please explore this dataset!
       </p>
+      <Linechart />
+      <Scatterplot />
     </div>
   );
 }
