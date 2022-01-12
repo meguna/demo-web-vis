@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/demo-deckgl-app/static/css/main.79a40283.chunk.css",
+    "main.css": "/demo-deckgl-app/static/css/main.81dc33bb.chunk.css",
     "main.js": "/demo-deckgl-app/static/js/main.1889eb3c.chunk.js",
     "main.js.map": "/demo-deckgl-app/static/js/main.1889eb3c.chunk.js.map",
     "runtime-main.js": "/demo-deckgl-app/static/js/runtime-main.bd1e8b5e.js",
@@ -8,13 +8,13 @@
     "static/js/2.16b20408.chunk.js": "/demo-deckgl-app/static/js/2.16b20408.chunk.js",
     "static/js/2.16b20408.chunk.js.map": "/demo-deckgl-app/static/js/2.16b20408.chunk.js.map",
     "index.html": "/demo-deckgl-app/index.html",
-    "static/css/main.79a40283.chunk.css.map": "/demo-deckgl-app/static/css/main.79a40283.chunk.css.map",
+    "static/css/main.81dc33bb.chunk.css.map": "/demo-deckgl-app/static/css/main.81dc33bb.chunk.css.map",
     "static/js/2.16b20408.chunk.js.LICENSE.txt": "/demo-deckgl-app/static/js/2.16b20408.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bd1e8b5e.js",
     "static/js/2.16b20408.chunk.js",
-    "static/css/main.79a40283.chunk.css",
+    "static/css/main.81dc33bb.chunk.css",
     "static/js/main.1889eb3c.chunk.js"
   ]
 }
