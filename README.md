@@ -1,6 +1,6 @@
 # Introduction to Web-based Data Visualization
 
-View the live demo here: https://meguna.github.io/demo-deckgl-app/
+View the live demo here: https://meguna.github.io/demo-web-vis/
 
 ## Set up guide
 
