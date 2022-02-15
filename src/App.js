@@ -36,7 +36,6 @@ function App() {
             <Scatterplot />
           </div>
         </div>
-        
       </div>
     </div>
   );
