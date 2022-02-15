@@ -6,12 +6,23 @@ View the live demo here: https://meguna.github.io/demo-web-vis/
 
 
 
-## Set up guide
+## Set up guide 
+
+If you have never done web programming before, there will be a bit of set up involved with getting your development environment ready. I've put together two guides, one for Mac, one for all platforms. I haven't 
 
 1. Install Node.js (v14+)
 2. Install Git https://github.com/git-guides/install-git
 3. Clone this repository. Run `npm i` inside the repo's root directory. 
 4. Run the app with `npm run start`. This is called your development server. This should open a window in your broswer at `localhost:3000` (or some other port). You can keep this window open while you're writing code, and when you save changes to your React app, it should reload automatically and display your changes. 
+5. Install an IDE (Integrated Development Environment). This is where you will write your code. My recommendation is VS Code
+
+## Set up guide: Cloud IDE
+
+This is a great option if you ran into problems with setting up your development environment and want a way to spin something up really quickly. This option uses [Gitpod](https://www.gitpod.io/), which interfaces with a Github/Gitlab/Bitbucket account and lets you write code online.
+
+1. If you don't have one already, make a Github account. 
+2. Click on the button called "Open in Gitpod" at the top of this README. You will be asked to authorize Gitpod. 
+3. 
 
 ## Deploy Guide
 
