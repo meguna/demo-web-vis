@@ -6,7 +6,9 @@ The requirements for this project are:
 - Node.js v14+
 - NPM v6.14.4+
 - A modern IDE like VS Code, Sublime, Atom, etc.
-- A web browser. Google Chrome is recommended for basic web development because it has 61% browser usage share.
+- A web browser. Google Chrome is recommended for basic web development because it has [61% browser usage share](https://gs.statcounter.com/browser-market-share) in the world right now and you should be able to replicate more expected behavior.
+
+Detailed instructions follow. 
 
 ## Set up guide: Mac
 
