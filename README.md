@@ -2,15 +2,17 @@
 
 View the live demo here: https://meguna.github.io/demo-web-vis/
 
-## Set up guide 
+The requirements for this project are:
+- Node.js v14+
+- NPM v6.14.4+
+- A modern IDE like VS Code, Sublime, Atom, etc.
+- A web browser. Google Chrome is recommended for basic web development because it has 61% browser usage share.
 
-If you have never done web programming before, there will be a bit of set up involved with getting your development environment ready. I've put together two guides, one for Mac, one for all platforms. I haven't 
+## Set up guide: Mac
 
-1. Install Node.js (v14+)
-2. Install Git https://github.com/git-guides/install-git
-3. Clone this repository. Run `npm i` inside the repo's root directory. 
-4. Run the app with `npm run start`. This is called your development server. This should open a window in your broswer at `localhost:3000` (or some other port). You can keep this window open while you're writing code, and when you save changes to your React app, it should reload automatically and display your changes. 
-5. Install an IDE (Integrated Development Environment). This is where you will write your code. My recommendation is VS Code
+1. Install VS Code: https://code.visualstudio.com/download. You can use another 
+2. Install Node.js (v14+). You can use the installer on the [Node homepage](https://nodejs.org/en/download/), or you can use Homebrew (`brew install node`), or you can even use NVM (Node Version Manager). The installer is probably the most straightforward, but the other options are also easy if you've previously installed Homebrew or NVM. Check that your Node is working by running `node -v` in your terminal.
+3. Your installation of Node should have come with NPM. Check that you have it by running `npm -v` in your terminal.
 
 ## Set up guide: Windows
 
