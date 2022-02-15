@@ -23,6 +23,27 @@ If you have never done web programming before, there will be a bit of set up inv
 3. If you used the Windows installer above, you should also have NPM installed automatically for you. Please check this by running `npm -v` and confirming you get a number like `8.3.1`. NPM stands for "Node Package Manager" and it will manage all of the Javascript code libraries that we will use for this project. 
 > If the Installer doesn't work for some reason, you can also manually install Node. To do this, download the "Windows Binary" listed on the Node homepage linked above, and unzip the file. You should get a folder named something like `node-v16.14.0-win-x64` after you unzip. Then, create a folder called `nodejs-lts` in your `%userprofile%/Applications` directory. Place all of the contents of the unzipped folder into the `nodejs-lts` folder. Then, find the setting called `Edit environment variables for your account` (you can just search for this in your start menu) and add a new environment variable called `PATH` (all caps) with the contents `%userprofile%/Applications/nodejs-lts`. Then, restart your command line (you can just close Powershell and open it again). Node and NPM should now be installed. Please run the checks for both as described above.
 
+## Run the Project
+
+1. Download a copy of this project by clicking on the "Code" button on this page and then "Download ZIP." (If you use git, you can also do `git clone git@github.com:meguna/demo-web-vis.git`).
+2. Unzip the archive.
+3. Open a command line, and navigate to the the folder using `cd`. For example, this might look like `cd /Users/meguna/Downloads/demo-web-vis-master` on a Mac, and `cd C:\Users\mokawa01\Downloads\demo-web-vis-master` on a PC.
+4. Then, run `npm i` to install the dependencies for this project.
+5. Finally, run `npm run start` to open the project in a web browser. It might take a minute or so, and once it's done initializing, the command should automatically open a browser window at `localhost:3000`. If you get a message like below in your command line, you've successfully launched the project!
+
+```
+Compiled successfully!
+
+You can now view deck in the browser.
+
+  Local:            http://localhost:3000/demo-web-vis
+  On Your Network:  http://10.245.71.45:3000/demo-web-vis
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+```
+
+
 ## Deploy Guide
 
 We will deploy this project using Github Pages, a free hosting solution for single page applications. 

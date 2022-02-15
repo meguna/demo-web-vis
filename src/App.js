@@ -1,6 +1,6 @@
 import React from 'react';
 import "App.css";
-import Map from './MapExample';
+// import Map from './MapExample';
 import Linechart from './LinechartExample';
 import Scatterplot from './ScatterplotExample';
 
