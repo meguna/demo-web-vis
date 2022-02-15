@@ -4,7 +4,7 @@ View the live demo here: https://meguna.github.io/demo-web-vis/
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/meguna/demo-web-vis/)
 
-
+[make from template](https://github.com/meguna/demo-web-vis/generate)
 
 ## Set up guide 
 
