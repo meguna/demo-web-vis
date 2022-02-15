@@ -141,3 +141,9 @@ You can come up with your own layouts, but some simple ones have been set up for
   </div>
 </div>
 ```
+
+### Appendix: Publishing Code
+
+Since this project for UEP238 uses datasets covered by an NDA, you shouldn't be uploading or open-sourcing this code. However, there may come a time where you want to use this repository as a starting point for a different project, and end up wanting to release/publish/upload this code. In that case, here are a few notes to consider:
+
+- The HTML files exported by Kepler use a Mapbox token, as described above in the "Using React map integrations" section. This token is plainly embedded into the HTML file, and for security purposes shouldn't be uploaded. Follow the instructions in that section, create a .env file, and reference the variable like so: `<title>%REACT_APP_WEBSITE_NAME%</title>`. More details here: https://create-react-app.dev/docs/adding-custom-environment-variables/#referencing-environment-variables-in-the-html
