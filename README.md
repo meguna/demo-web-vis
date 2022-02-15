@@ -16,13 +16,12 @@ If you have never done web programming before, there will be a bit of set up inv
 4. Run the app with `npm run start`. This is called your development server. This should open a window in your broswer at `localhost:3000` (or some other port). You can keep this window open while you're writing code, and when you save changes to your React app, it should reload automatically and display your changes. 
 5. Install an IDE (Integrated Development Environment). This is where you will write your code. My recommendation is VS Code
 
-## Set up guide: Cloud IDE
+## Set up guide: Windows
 
-This is a great option if you ran into problems with setting up your development environment and want a way to spin something up really quickly. This option uses [Gitpod](https://www.gitpod.io/), which interfaces with a Github/Gitlab/Bitbucket account and lets you write code online.
-
-1. If you don't have one already, make a Github account. 
-2. Click on the button called "Open in Gitpod" at the top of this README. You will be asked to authorize Gitpod. 
-3. 
+1. Install VS Code: https://code.visualstudio.com/download
+2. Install NodeJS and NPM. Node is a Javascript based server engine and is what will be used to power all of our web development work. Thankfully, getting Node to work on a Windows machine should be fairly straightforward. Navigate to the [Node homepage](https://nodejs.org/en/download/) and use the Windows Installer. Please confirm that Node is running on your machine by running `node -v` in your command line of choice (Powershell is fine) and confirming that you get some number like `v16.14.0`. 
+3. If you used the Windows installer above, you should also have NPM installed automatically for you. Please check this by running `npm -v` and confirming you get a number like `8.3.1`. NPM stands for "Node Package Manager" and it will manage all of the Javascript code libraries that we will use for this project. 
+> If the Installer doesn't work for some reason, you can also manually install Node. To do this, download the "Windows Binary" listed on the Node homepage linked above, and unzip the file. You should get a folder named something like `node-v16.14.0-win-x64` after you unzip. Then, create a folder called `nodejs-lts` in your `%userprofile%/Applications` directory. Place all of the contents of the unzipped folder into the `nodejs-lts` folder. Then, find the setting called `Edit environment variables for your account` (you can just search for this in your start menu) and add a new environment variable called `PATH` (all caps) with the contents `%userprofile%/Applications/nodejs-lts`. Then, restart your command line (you can just close Powershell and open it again). Node and NPM should now be installed. Please run the checks for both as described above.
 
 ## Deploy Guide
 
