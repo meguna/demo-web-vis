@@ -3,6 +3,7 @@ import "App.css";
 // import Map from './MapExample';
 import Linechart from './LinechartExample';
 import Scatterplot from './ScatterplotExample';
+import Barchart from './BarchartExample';
 
 function App() {
   return (
@@ -36,6 +37,12 @@ function App() {
             <Scatterplot />
           </div>
         </div>
+      </div>
+      <div className="section">
+        <h1>...Even Another Example</h1>
+          <h2>Check this out</h2>
+          <p>Here is some dummy data along with month labels.</p>
+          <Barchart />
       </div>
     </div>
   );
