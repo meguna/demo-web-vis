@@ -1,4 +1,5 @@
 # Introduction to Web-based Data Visualization
+### For UEP238, Spring 2022, Tufts University
 
 View the live demo here: https://meguna.github.io/demo-web-vis/
 
@@ -14,6 +15,7 @@ Detailed instructions follow.
 
 - [Instructions on installing software and setting up development environment](https://github.com/meguna/demo-web-vis/wiki/Set-Up-Guide)
 - [Running the Project / Getting Started](https://github.com/meguna/demo-web-vis/wiki/Running-the-project-on-your-machine)
+- [Hints about common syntax you might encounter](https://github.com/meguna/demo-web-vis/wiki/Helpful-Syntax-Hints)
 
 ## Development Guide
 
