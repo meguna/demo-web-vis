@@ -15,7 +15,7 @@ Detailed instructions follow.
 
 - [Instructions on installing software and setting up development environment](https://github.com/meguna/demo-web-vis/wiki/Set-Up-Guide)
 - [Running the Project / Getting Started](https://github.com/meguna/demo-web-vis/wiki/Running-the-project-on-your-machine)
-- [Hints about common syntax you might encounter](https://github.com/meguna/demo-web-vis/wiki/Helpful-Syntax-Hints)
+- [Hints about common Javascript syntax you might encounter](https://github.com/meguna/demo-web-vis/wiki/Javascript-Syntax-Hints)
 
 ## Development Guide
 
