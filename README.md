@@ -11,6 +11,9 @@ The requirements for this project are:
 
 Detailed instructions follow. 
 
+## Intro to Web Development
+- [Basic web development concepts](https://github.com/meguna/demo-web-vis/wiki/Basic-Web-Development-Concepts)
+
 ## Setup Guide
 
 - [Instructions on installing software and setting up development environment](https://github.com/meguna/demo-web-vis/wiki/Set-Up-Guide)
