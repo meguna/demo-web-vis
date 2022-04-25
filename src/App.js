@@ -4,6 +4,7 @@ import "App.css";
 import Linechart from './LinechartExample';
 import Scatterplot from './ScatterplotExample';
 import Barchart from './BarchartExample';
+import PlotlyExample from 'PlotlyExample';
 
 function App() {
   return (
@@ -43,6 +44,12 @@ function App() {
           <h2>Check this out</h2>
           <p>Here is some dummy data along with month labels.</p>
           <Barchart />
+      </div>
+      <div className="section">
+        <h1>Example with Plotly</h1>
+        <h2>Check this out</h2>
+        <p>Here is some dummy data along with month labels.</p>
+        <PlotlyExample />
       </div>
     </div>
   );
